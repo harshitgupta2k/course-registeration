@@ -34,8 +34,7 @@ Requirements
 	Make sure your PostgreSQL server is running and a database has been created for the project.
 
 Environment Variables
-	This application uses environment variables stored in a .env file to handle sensitive information like database credentials and JWT secret key. Here is the 	structure of the .env file:
-
+	This application uses environment variables stored in a .env file to handle sensitive information like database credentials and secret key.
 	Make sure to replace the placeholder values with actual values for your PostgreSQL setup and secret key.
 
 
@@ -144,4 +143,4 @@ Course Registration (Student Only)
 
 	Description: Allows a student to register for a course by providing the course name.
 
-Mentioned APi endpoints Will work in Browser using Django Rest Framework Default APi View.
+Mentioned APi endpoints Will work in Browser using Django Rest Framework Default APi View.Hit the url in browser and test the endpoints with DRF Forms.
